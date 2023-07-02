@@ -19,13 +19,10 @@ const FormComponent = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Process the form data or submit it to a server here
      console.log(formData);
 
-    // Display the form details in a pop-up alert
     alert(JSON.stringify(formData));
 
-    // Reset the form after submission
     setFormData({
       firstName: '',
       lastName: '',
